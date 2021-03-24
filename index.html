@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discy perguntas e respostas sociais</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="cabecalho-img">
+            <img src="./assets/imagens/logo.png" alt="">
+        </div>
+        <nav class="menu">
+            <ul>
+                <li><a class="link-a" href="">Casa</a></li>
+                <li><a href="">Sobre nós</a></li>
+                <li><a href="">Blog</a></li>
+                <li><a href="">Contate-Nos</a></li>
+            </ul>
+            <div class="busca">
+                <form class="busca-form" action="">
+                    <input class="input" type="text" placeholder="Digite palavras de pesquisas" name="" id="">
+                    <img src="#" alt="">
+                </form>
+            </div>
+        </nav>
+        <div class="inscricao">
+            <p><a href="" class="inscricao-a">Assinar Em</a></p>
+            <p><a href="" class="inscricao-i">Inscrever-se</a></p>
+        </div>
+
+    </div>
+
+    <header class="superinfo">
+        <div class="superinfo-img">
+            <img src="#" alt="">
+        </div>
+            <div class="superinfo-geral">
+                <div class="superinfo-sobre">
+                    <h1><b> Compartilhe e aumente o conhecimento do mundo! </b></h1>
+                    <p><b> Queremos conectar as pessoas que têm conhecimento às pessoas que precisam <br> dele, reunir 
+                    pessoas com perspectivas diferentes para que possam se entender <br> melhor e capacitar 
+                    todos para compartilhar seus conhecimentos.</b></p>
+                </div>    
+                <div class="nova-conta">
+                    <a class="criar-conta" href="">crie uma nova conta</a>
+                </div>
+            </div>
+    </header>
+
+    <section class="comentarios">
+
+            <div class="menu-lateral-e">
+                <ul>
+                    <li><a href="">Casa</a></li>
+                    <li><a href="">Adicionar grupo</a></li>
+                    <li><a href="">Página de grupos</a></li>
+                    <li><a href="">Comunidades</a></li>
+                    <li><a href="">Questões</a>
+                        <ol>
+                            <li><a href="">Novas Perguntas</a></li>
+                            <li><a href="">Perguntas populares</a></li>
+                            <li><a href="">Perguntas obrigatórias</a></li>
+                            <li><a href="">Perguntas quentes</a></li>
+                        </ol>
+                    </li>
+                    <li><a href="">Enquetes</a></li>
+                    <li><a href="">Tag</a></li>
+                    <li><a href="">Distintivos</a></li>
+                    <li><a href="">Comercial</a></li>
+                    <li><a href="">Socorro</a></li>
+                    <li><a href="">Compre Tema</a></li>
+                </ul>
+            </div>
+
+        <div class="menu-central">    
+            <nav>
+                <ul>
+                    <li><a href="" class="perguntas-1">Perguntas recentes</a></li>
+                    <li><a href="">Mais respondidas </a></li>
+                    <li><a href="">Bump Question</a></li>
+                    <li><a href="">Respost</a></li>
+                    <li><a href="">Mais visitado</a></li>
+                </ul>
+            </nav>
+
+            <div class="comentarios-exibicao">
+
+            </div>
+            
+        </div>
+
+
+
+        <div class="menu-lateral-d">
+            <a href=""> Faça Uma pergunta </a>
+        </div>
+
+
+    </section>  
+    
+    <section>
+
+        <!--
+            body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+    background: #e7e7e7;
+}
+a, ul {
+    text-decoration: none;
+    list-style: none;
+}
+/* MENU */
+.cabecalho {
+
+    display: flex;
+    background:#292931;
+}
+.cabecalho-img {
+    padding: 1.3rem 4rem 1rem 5.7rem;
+    border-right: .05rem solid #a9a9a927;
+}
+.menu {
+    max-width: 60rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-right: .05rem solid #a9a9a954;   
+}
+.menu .link-a{
+    background: rgb(25, 26, 32);
+    border-radius: .1rem;
+}
+.menu ul {
+    padding-left: 1rem;
+    padding-right: 8rem;
+}
+.menu ul li {
+    display: inline-block;
+}
+.menu a:hover {
+    background: rgb(25, 26, 32);
+    border-radius: .1rem;
+    transition: .7s;
+}
+.menu ul li a {
+    color: rgb(201, 201, 201);
+    display: block;
+    padding: .6rem;
+    font-size: 1em;
+    font-weight: bold
+}
+.busca-form {
+    padding-right: 1rem;
+}
+.busca-form input {
+    font-size: .7em;
+    color: #7c7c7c;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0;
+    background: #22222b;
+    padding: .6rem;
+    padding-right: 2rem;
+    margin: 0;
+    border-radius: 0;
+}
+.inscricao {
+    width: 16rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+    border-right: .05rem solid #a9a9a954;
+}
+.inscricao a {
+    color: rgb(255, 255, 255);
+    padding: .5rem;
+    font-size: 1em;
+    font-weight: bold
+}
+.inscricao-a {
+    background: #006eff;
+    border-radius: .1rem;
+} 
+.inscricao-a:hover {
+    background: #9b1f1f;
+}
+.inscricao-i {
+   background: #808080;  
+   border-radius: .1rem;   
+}
+.inscricao-i:hover {
+    background: #9b1f1f;
+}
+/*  SEÇÃO CRIAR CONTA */
+.superinfo {
+    max-width: 100%;
+    height: 16rem;
+    background: url(/assets/imagens/escritorio.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.superinfo-geral{
+    width: 100%;
+    height: 11rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.superinfo-sobre h1 {
+    font-size: 1.37em;
+    font: bold;
+    color: #1f1e1e;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.superinfo-sobre {
+    margin-left: 6rem;
+    padding: 0 auto;
+    flex-wrap: wrap;
+}
+.superinfo-sobre p {
+    padding-left: 0;
+    font-size: 1.1em;
+    font-family: 'Barlow Condensed', sans-serif;
+    line-height: 1.5;
+    color: rgb(36, 35, 35) ;
+}
+.nova-conta {
+    margin-right: 7rem;
+}
+.nova-conta a {
+    width: 200px;
+    background: #006eff;
+    color: rgb(255, 255, 255);
+    padding: .7rem 3.5rem;
+    font-size: 1em;
+    font-weight: bold
+}
+.nova-conta a:hover {
+    background:#808080;
+    transition: .7s; 
+}
+/* SEÇÃO COMENTARIOS  */
+.comentarios {
+    max-width: 42rem;
+    height: 5rem;
+    background: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 18rem;
+    border-bottom: .1rem solid #dddddd;
+}
+.comentarios ul li {
+    display: inline-block;
+    padding-right: .6rem;
+    padding: .4rem;
+}
+.comentarios ul li a {
+    color: #616060; 
+}
+.comentarios ul li a:hover {
+    color: #414141;
+    padding-bottom: 1.81rem;
+    border-bottom: .2rem solid #414141;
+    font: bold;
+    transition: .7s;
+}
+.comentarios .perguntas-1 {
+    color: #414141;
+    padding-bottom: 1.81rem;
+    border-bottom: .2rem solid #414141;
+}
+/* EXIBIÇÃO DE COMENTARIOS */
+.comentarios-exibicao {
+    max-width: 42rem;
+    height: 100vh;
+    background: white;
+    display: flex;
+    align-items: center;
+    margin: 0 auto 0 18rem;
+}
+/* MENU LATERAL LADO ESQUERDO */
+.menu-lateral-e {
+    background: #808080;
+    width: 17rem;
+    height: 100vh;
+    display: flex;
+    justify-content: end;
+    padding-top: 50rem;
+}
+        -->
+    </section>
+    
+    
+</body>
+</html>
